@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 # Read sheets from the excel file
-task1=pd.read_excel("Quant test.xlsx",sheet_name='Task 1')
+task1=pd.read_excel("Data1.xlsx",sheet_name='Task 1')
 task1.set_index("date",inplace=True)
-task2=pd.read_excel("Quant test.xlsx",sheet_name='Task 2')
+task2=pd.read_excel("Data1.xlsx",sheet_name='Task 2')
 task2.set_index("date",inplace=True)
-task3=pd.read_excel("Quant test.xlsx",sheet_name='Task 3')
+task3=pd.read_excel("Data1.xlsx",sheet_name='Task 3')
 task3.set_index("date",inplace=True)
 # Task 1 Equity Analysis
 # Task 1.1 Compute monthly returns from the price series for each index.
